@@ -37,15 +37,15 @@ protected $ip2region;
 
 ......
 
-$res = $this->ip2region->binarySearch($ip);
+$res = $this->ip2region->binarySearch($ip = "223.104.148.63");
 
 var_dump($res);
 
 
 // Array
 // (
-//     [city_id] => 1132
-//     [region] => 中国|0|浙江省|杭州市|移动
+//     [city_id] => 1015
+//     [region] => 中国|0|江苏省|南京市|移动
 // )
 
 ```
